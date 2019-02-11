@@ -1,0 +1,6 @@
+default entry: src/index.js
+default output: dist/main.js
+
+css-loader: handles css files
+styles-loader: injects css into style tags
+loader arrays work from back to front
