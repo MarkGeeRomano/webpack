@@ -1,0 +1,6 @@
+export const aa = () => console.log(999)
+export const bb = () => console.log(999)
+export const cc = () => console.log(9994)
+$()
+window.abc = () => import(/*webpackChunkName:'login'*/'./dumbFunc')
+  .then(module => window.abc = module.default)

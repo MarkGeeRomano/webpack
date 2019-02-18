@@ -3,4 +3,10 @@ default output: dist/main.js
 
 css-loader: handles css files
 styles-loader: injects css into style tags
+MiniCssPlugin loader: creates css file (instead of style tag)
+
 loader arrays work from back to front
+
+sideEffects - property in package.json that will tree shake deps that are unused but bundled via side effects
+
+if you use `optimization` field to minify css, you'll have to explicitly minify js with terser-webpack-plugin
